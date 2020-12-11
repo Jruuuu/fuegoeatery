@@ -1,0 +1,25 @@
+{
+  "name": "fuegoeatery",
+  "version": "1.0.0",
+  "description": "* Description: Basic app demonstrating Node and Express with jQuery. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list. * Live Demo: <http://hot-restaurant.herokuapp.com/>",
+  "main": "reserve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jruuuu/fuegoeatery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jruuuu/fuegoeatery/issues"
+  },
+  "homepage": "https://github.com/Jruuuu/fuegoeatery#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
