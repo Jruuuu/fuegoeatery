@@ -8,13 +8,16 @@ var PORT = process.env.PORT || 3000;
 
 // Data
 // ===========================================================
-const viewTable = {
+const viewTable = [
+    {
+    "customerName": "",
+    "phoneNumber": "",
+    "customerEmail": "",
+    "customerID": ""
+    }
+]
 
-};
-
-const makeReservation = {
-
-};
+const makeReservation = [];
 
 // Routes
 // ===========================================================
@@ -29,6 +32,10 @@ app.get("/tables", function (req, res) {
 app.get("/reserve", function (req, res) {
     res.sendFile(path.join(__dirname, "/reserve.html"));
 });
+
+app.get("/api/tables", function (req, res) {
+    return res.json(viewTable);
+})
 
 
 
