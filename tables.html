@@ -59,7 +59,11 @@
 
     </div>
     
-    <script src="./tables.js"></script>
+    <script>
+        $.get("/api/tables", function(data) {
+            console.log(data);
+        });
+    </script>
 
 </body>
 </html>

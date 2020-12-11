@@ -8,14 +8,7 @@ var PORT = process.env.PORT || 3000;
 
 // Data
 // ===========================================================
-const viewTable = [
-    {
-    "customerName": "",
-    "phoneNumber": "",
-    "customerEmail": "",
-    "customerID": ""
-    }
-]
+const viewTable = []
 
 const makeReservation = [];
 
